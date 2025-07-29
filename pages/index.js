@@ -20,6 +20,7 @@ export default function Home() {
   }
   return (
     <div className={styles.container}>
+      <h1>Updated</h1>
       <h1>Hello {session?.data?.user?.name}</h1>
       <button onClick={signOut}>SignOut</button>
     </div>
